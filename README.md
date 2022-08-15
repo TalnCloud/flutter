@@ -1,9 +1,9 @@
 # Flutter TalnCloud plugin
 
 
-This repo is a modified folked version to the main [flutter
+This Plugin repo is a modified folked version to the main [flutter
 repo](https://github.com/flutter/flutter). It contains the source code for
-Flutter first-party plugins (i.e., plugins developed by the core Flutter team).
+Flutter url launcher plugins (i.e., plugins developed by the core Flutter team).
 Check the `packages` directory for all plugins.
 
 Flutter plugins enable access to platform-specific APIs. For more information
@@ -13,27 +13,7 @@ about plugins, and how to use them, see
 These plugins are also available on
 [pub](https://pub.dev/flutter/packages).
 
-## Issues
 
-Please file any issues, bugs, or feature requests in the [main flutter
-repo](https://github.com/flutter/flutter/issues/new).
-
-Issues pertaining to this repository are [labeled
-"plugin"](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3Aplugin).
-
-## Contributing
-
-If you wish to contribute a new plugin to the Flutter ecosystem, please
-see the documentation for [developing packages](https://flutter.dev/developing-packages/) and
-[platform channels](https://flutter.dev/platform-channels/). You can store
-your plugin source code in any GitHub repository (the present repo is only
-intended for plugins developed by the core Flutter team). Once your plugin
-is ready, you can [publish](https://flutter.dev/developing-packages/#publish) it
-to the [pub repository](https://pub.dev/).
-
-If you wish to contribute a change to any of the existing plugins in this repo,
-please review our [contribution guide](https://github.com/flutter/plugins/blob/main/CONTRIBUTING.md),
-and send a [pull request](https://github.com/flutter/plugins/pulls).
 
 ## Plugins - url_launcher
 These are the available plugins in this repository.
