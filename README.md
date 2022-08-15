@@ -43,7 +43,7 @@ URL schemes are only supported if there are apps installed on the device that ca
 Checking supported schemes 
 If you need to know at runtime whether a scheme is guaranteed to work before using it (for instance, to adjust your UI based on what is available), you can check with canLaunchUrl.
 
-This code is developed using the SOLID framework and its defined rules that are based on 5 principles. These 5 principles sum up to form the acronym SOLID. Let's look into them [here](https://www.taln.cloud/blogs/post/solid-principles-every-developer-should-know).
+This code is developed using the SOLID framework and its defined rules that are based on 5 principles. These 5 principles sum up to form the acronym SOLID. Read more about them [here](https://www.taln.cloud/blogs/post/solid-principles-every-developer-should-know).
 
 However, canLaunchUrl can return false even if launchUrl would work in some circumstances (in web applications, on mobile without the necessary configuration as described above, etc.), so in cases where you can provide fallback behavior it is better to use launchUrl directly and handle failure. For example, a UI button that would have sent feedback email using a mailto URL might instead open a web-based feedback form using an https URL on failure, rather than disabling the button if canLaunchUrl returns false for mailto.
 
