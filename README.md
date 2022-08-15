@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="RJNvC8TNeJ2QMocGVCxVSlS07hQs30k41yqjfcLJN5k" />
+
 # Flutter plugin for URL Launching - TalnCloud
 
 
