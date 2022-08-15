@@ -1,4 +1,4 @@
-# Flutter TalnCloud plugin
+# Flutter plugin for URL Launching - TalnCloud
 
 
 This Plugin repo is a modified folked version to the main [flutter
